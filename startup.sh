@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "***********************************************************************"
 # Make sure your custom glibc is used only by your app
 export LD_LIBRARY_PATH=/tmp/@{APPID}/lib:$LD_LIBRARY_PATH
 
